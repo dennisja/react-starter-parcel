@@ -1,6 +1,6 @@
 {
   "name": "react-starter",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A simple react starter",
   "main": "index.js",
   "repository": "https://github.com/dennisja/react-starter-parcel.git",
@@ -19,4 +19,4 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   }
-}
+} 
