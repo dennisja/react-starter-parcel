@@ -1,5 +1,6 @@
-console.log('First Look At Parcel');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-window.onload = function() {
-  document.getElementById('root').innerHTML = 'Welcome To Parcel';
-};
+const App = () => 'Welcome to React With Parcel';
+
+ReactDOM.render(<App />, document.querySelector('#root'));
