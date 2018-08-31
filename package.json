@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/dennisja/react-starter-parcel.git",
   "author": "dennisja <dennisjjagwe@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel public/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
 }

@@ -1,0 +1,18 @@
+# build
+/dist
+
+# IDES
+.vscode
+.idea
+
+# logs
+*.log
+
+# OSX
+.DS_Store
+
+# Cache
+.cache
+
+# node
+node_modules
