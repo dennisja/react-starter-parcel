@@ -1,0 +1,9 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "A simple react starter",
+  "main": "index.js",
+  "repository": "https://github.com/dennisja/react-starter-parcel.git",
+  "author": "dennisja <dennisjjagwe@gmail.com>",
+  "license": "MIT"
+}
