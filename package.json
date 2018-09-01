@@ -23,5 +23,27 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-testing-library": "^5.0.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/dist/**",
+      "!**/vendor/**",
+      "!**/src/index.js",
+      "!**/*.eslintrc.js",
+      "!**/coverage/**",
+      "!**/webpack.config.js",
+      "!**/config/**",
+      "!**/__mocks__/**",
+      "!**/__tests__/**",
+      "!**/postcss.config.js",
+      "!**/setupTests.js",
+      "!**/jest.config.js",
+      "!**/src/utils/ApolloClient.js"
+    ],
+    "testPathIgnorePatterns": [
+      "__mocks__"
+    ]
   }
 }
