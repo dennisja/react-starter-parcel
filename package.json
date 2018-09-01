@@ -7,16 +7,21 @@
   "author": "dennisja <dennisjjagwe@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel public/index.html"
+    "start": "parcel public/index.html",
+    "test": "jest",
+    "test-ci": "jest --coverage"
   },
   "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "jest": "^23.5.0",
     "parcel-bundler": "^1.9.7"
   },
   "dependencies": {
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "react-testing-library": "^5.0.0"
   }
-} 
+}

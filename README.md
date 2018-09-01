@@ -26,5 +26,11 @@ yarn install
 yarn start
 ```
 
+4. Running tests
+```
+yarn test
+```
+We use jest under the hood so the command accepts all other [jest options](https://jestjs.io/docs/en/configuration)
+
 ## License
 Distributed under the MIT License. See [license file](LICENSE)

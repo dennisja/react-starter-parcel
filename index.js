@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const App = () => 'Welcome to React With Parcel';
+import App from './src/App';
 
 ReactDOM.render(<App />, document.querySelector('#root'));
