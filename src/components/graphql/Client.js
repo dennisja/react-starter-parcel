@@ -13,7 +13,7 @@ const httpLink = new createHttpLink({
   uri: API_URL,
 });
 
-const authLink = setContext((_, { headers }) => {
+const authLink = setContext((_, { headers = {} }) => {
   const token = getItemFromLocalStorage(AUTH_TOKEN_KEY);
 
   //  add authorization header if token exists

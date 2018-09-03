@@ -1,5 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './src/App';
+import { ApolloProvider } from 'react-apollo';
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+import App from './src/App';
+import client from './src/components/graphql/Client';
+
+ReactDOM.render(
+  <ApolloProvider client={client}>
+    <App />
+  </ApolloProvider>,
+  document.querySelector('#root'),
+);
