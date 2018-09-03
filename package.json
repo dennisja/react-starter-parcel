@@ -20,7 +20,14 @@
     "parcel-bundler": "^1.9.7"
   },
   "dependencies": {
+    "apollo-cache-inmemory": "^1.2.9",
+    "apollo-client": "^2.4.1",
+    "apollo-link-context": "^1.0.8",
+    "apollo-link-http": "^1.5.4",
+    "graphql": "^14.0.0",
+    "graphql-tag": "^2.9.2",
     "react": "^16.4.2",
+    "react-apollo": "^2.1.11",
     "react-dom": "^16.4.2",
     "react-testing-library": "^5.0.0"
   },
